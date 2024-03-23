@@ -227,6 +227,6 @@ async def on_message(message):
         random_mob_image = random.choice(mobs_images)
         await message.channel.send(random_mob_image)
 
-TOKEN = 'MTIxNTk4MTE4NjQzNDczMjE2Ng.GRaW_c.0RTUw92E5ZlsjkshY3RJclZvrVIBbipaFqm7eo'
+TOKEN = 'bot_token_here'
 
 client.run(TOKEN)
